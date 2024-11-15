@@ -1,0 +1,79 @@
+.form-control {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 1rem;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.optional-text {
+  color: #b8b6b6;
+  font-size: 0.9rem;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #6c63ff;
+  outline: none;
+}
+
+.invalid {
+  background-color: red;
+}
+
+/* Style for invalid inputs */
+/* .invalid {
+  border-color: #ff6b6b;
+  background-color: #ffe5e5;
+} */
+
+.invalid-message {
+  color: #ff6b6b;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+/* Button styles */
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #6c63ff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5a54cc;
+}
+
+/* Form layout fix */
+.form-control div {
+  grid-column: 1 / -1;
+}
+
+.error-text {
+  color: #b40e0e;
+}

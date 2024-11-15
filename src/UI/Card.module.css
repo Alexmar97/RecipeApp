@@ -1,0 +1,43 @@
+.card {
+  background-color: #ffffff; /* White background */
+  padding: 20px; /* Space inside the card */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 400px; /* Optional: control the width of the card */
+  margin: 20px auto; /* Centering and spacing around cards */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth effect on hover */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight upward movement on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+  margin-bottom: 10px;
+}
+
+.card-ingredients,
+.card-instructions {
+  margin-bottom: 15px;
+}
+
+.card-ingredients h3,
+.card-instructions h3 {
+  font-size: 1.2rem;
+  color: #666; /* Gray color for section titles */
+}
+
+.card-ingredient-item {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.card-instructions p {
+  line-height: 1.5;
+  color: #555; /* Slightly lighter text for readability */
+}

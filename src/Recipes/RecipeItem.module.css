@@ -1,0 +1,14 @@
+.recipeInstructions {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+img {
+  width: 250px; /* Adjust as needed */
+  height: 250px; /* Adjust as needed */
+  object-fit: cover; /* Ensure the image is cropped to fit the dimensions */
+  border-radius: 8px; /* Optional: add rounded corners */
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  margin-bottom: 10px; /* Space between image and ingredients title */
+}
